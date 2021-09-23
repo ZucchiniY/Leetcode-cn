@@ -38,9 +38,10 @@
 
 ## 顺序刷题
 
-| 编号 | 题目                                                          | 解决方案                 | 难度 |
-|-----:|---------------------------------------------------------------|--------------------------|------|
-|    1 | [两数之和](https://leetcode-cn.com/problems/two-sum/)         | [Python](./l1-l100/1.py) | 简单 |
-|    7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Python](./l1-l100/7.py) | 简单 |
-|    9 | []()                                                          | [Python](./l1-l100/9.py) | 简单 |
-|      |                                                               |                          |    |
+| 编号 | 题目                                                                               | 解决方案                  | 难度 |
+|-----:|------------------------------------------------------------------------------------|---------------------------|------|
+|    1 | [两数之和](https://leetcode-cn.com/problems/two-sum/)                              | [1](./l1-l100/1.py)       | 简单 |
+|    7 | [整数反转](https://leetcode-cn.com/problems/reverse-integer/)                      | [7](./l1-l100/7.py)       | 简单 |
+|    9 | [回文数](https://leetcode-cn.com/problems/palindrome-number/)                      | [9](./l1-l100/9.py)       | 简单 |
+|  300 | [最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [300](./l201-l300/300.py) | 中等 |
+|      |                                                                                    |                           |      |
