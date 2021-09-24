@@ -5,8 +5,8 @@
 4. 声明存储新链表头位置的数组 res = [None] * k
 4.0 重新找出链表头，然后进行循环 curr = head
 4.1 先将链表头保存到数组中， res[0] = curr
-4.2 计算循环，然后将链表循环放入 for _ in range(i_len): last, curr = curr, curr.next 
-4.3 到长度后，截断链表然后保存当前位置 last.next = None
+4.2 计算循环，然后利用 curr = curr.next 进行链表的循环，不停的指向下一个值
+4.3 last 为赋值指针，通过指向当前的 curr 来赋值链表，在对应数量的元素赋值后，将 last.next 指向 None 来结束当前的链表。
 5. 向第二段链表存入数据 index += 1
 """
 
@@ -31,11 +31,13 @@ class Solution:
         # 链表个数
         res = [None] * k
 
+        # 循环指针
         curr = head
         index = 0
         while curr:
             # 记录 curr 开头
             res[index] = curr
+            # 赋值指针
             last = None
 
             i_len = basic_len + 1 if index < add_count else basic_len
